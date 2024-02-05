@@ -13,9 +13,7 @@ def add_person():
 
 def print_data():
     with open('phone_book.txt', 'r', encoding='UTF-8') as data:
-        if data.read(0):
-            print('Добавьте запись, список пустой!')
-        else:
+        
             print(data.read())
 
 def search():
